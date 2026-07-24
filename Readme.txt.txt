@@ -1,0 +1,1 @@
+Portafolio personal como Java Full Stack Developer Jr., con proyectos, tecnologías, experiencia profesional y formación.

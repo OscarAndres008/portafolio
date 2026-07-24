@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar Andrés Miranda López | Java Full Stack Developer Jr.</title>
+    <meta name="description" content="Portafolio de Oscar Andrés Miranda López - Java Full Stack Developer Jr. e Ingeniero en Sistemas Computacionales con experiencia en desarrollo web y automatización RPA.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <span>&lt;/&gt;</span> OscarMiranda
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content fade-in">
+                <div class="hero-badge">
+                    <span class="dot"></span>
+                    Disponible para nuevas oportunidades
+                </div>
+                <h1>Oscar Andrés<br>Miranda López</h1>
+                <h2>Java Full Stack Developer Jr. | Ingeniero en Sistemas Computacionales</h2>
+                <p>Desarrollador Full Stack Junior con formación en Ingeniería en Sistemas Computacionales y experiencia profesional en automatización robotica de procesos (RPA). Actualmente enfocado en el desarrollo de aplicaciones web utilizando Java, Spring Boot, JavaScript, HTML, CSS, Bootstrap, SQL.</p>
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn btn-primary">
+                        <i class="fas fa-code"></i> Ver proyectos
+                    </a>
+                    <a href="https://github.com/" target="_blank" class="btn btn-outline">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/" target="_blank" class="btn btn-outline">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                  <a href="Cv/CV Oscar Andres Miranda Lopez.pdf"
+                        download="CV Oscar Andres Miranda Lopez.pdf"
+                        class="btn btn-outline">
+
+                        <i class="fa-solid fa-download"></i>
+                        Descargar CV
+
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <div class="profile-img-container">
+                    <!-- Reemplazar src con tu foto profesional -->
+                    <div class="profile-placeholder">
+                        <i class="fas fa-user"></i>
+                        <span>Tu foto aquí</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section class="section about" id="sobre-mi">
+        <div class="container">
+            <div class="about-text fade-in">
+                <h2 class="section-title">Sobre mí</h2>
+                <p class="section-subtitle">Mi transición del mundo de la automatización al desarrollo Full Stack.</p>
+                <p>Soy <strong>Ingeniero en Sistemas Computacionales</strong> apasionado por la tecnología y el desarrollo de software. Durante más de 3 años trabajé desarrollando y manteniendo automatizaciones RPA para procesos empresariales, adquiriendo una sólida base en resolución de problemas, lógica de programación y trabajo con metodologías ágiles.</p>
+                <p>Actualmente estoy fortaleciendo mi perfil como <strong>Java Full Stack Developer</strong> mediante un Bootcamp de <strong>Generation México</strong>, combinando mi experiencia profesional previa con tecnologías modernas de desarrollo web.</p>
+                <p>Busco oportunidades donde pueda seguir creciendo como desarrollador, aportar valor con mi experiencia y contribuir en proyectos tecnológicos desafiantes.</p>
+
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <i class="fas fa-puzzle-piece"></i>
+                        <span>Resolución de problemas</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-users"></i>
+                        <span>Trabajo en equipo</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-book-open"></i>
+                        <span>Aprendizaje continuo</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-comments"></i>
+                        <span>Comunicación efectiva</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-rocket"></i>
+                        <span>Proactividad</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-sync-alt"></i>
+                        <span>Adaptabilidad</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-visual fade-in">
+                <div class="code-block">
+                    <div class="code-dots">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="code-content">
+                        <div><span class="keyword">public class</span> <span class="type">Developer</span> {</div>
+                        <div>&nbsp;&nbsp;<span class="keyword">private</span> <span class="type">String</span> <span class="var">nombre</span> = <span class="string">"Oscar Miranda"</span>;</div>
+                        <div>&nbsp;&nbsp;<span class="keyword">private</span> <span class="type">String</span> <span class="var">rol</span> = <span class="string">"Full Stack Developer Jr."</span>;</div>
+                        <div>&nbsp;&nbsp;<span class="keyword">private</span> <span class="type">String</span>[] <span class="var">stack</span> = {<span class="string">"Java"</span>, <span class="string">"Spring"</span>, <span class="string">"JS"</span>};</div>
+                        <div>&nbsp;&nbsp;</div>
+                        <div>&nbsp;&nbsp;<span class="keyword">public void</span> <span class="func">construirFuturo</span>() {</div>
+                        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">// Siempre aprendiendo, siempre creando</span></div>
+                        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="func">crearSoluciones</span>();</div>
+                        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="func">colaborarEnEquipo</span>();</div>
+                        <div>&nbsp;&nbsp;}</div>
+                        <div>}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tecnologías -->
+    <section class="section" id="tecnologias">
+        <div class="container">
+            <div class="fade-in">
+                <h2 class="section-title">Tecnologías</h2>
+                <p class="section-subtitle">Stack tecnológico con el que trabajo y que estoy constantemente expandiendo.</p>
+            </div>
+
+            <div class="tech-category fade-in">
+                <h3><i class="fas fa-server"></i> Backend</h3>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <i class="fab fa-java"></i>
+                        <h3>Java</h3>
+                        <p>Lenguaje principal de desarrollo backend</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Spring Boot</h3>
+                        <p>Framework para aplicaciones empresariales</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fas fa-database"></i>
+                        <h3>SQL</h3>
+                        <p>Gestión y consulta de bases de datos</p>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="tech-category fade-in">
+                <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <p>Estructura semántica web</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                        <p>Estilos y diseño responsive</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>Interactividad y lógica del cliente</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>Bootstrap</h3>
+                        <p>Framework de componentes UI</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech-category fade-in">
+                <h3><i class="fas fa-code"></i> Programación</h3>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <i class="fab fa-java"></i>
+                        <h3>Java</h3>
+                        <p>Programación orientada a objetos</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                        <p>Automatización y scripting</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fab fa-php"></i>
+                        <h3>PHP</h3>
+                        <p>Desarrollo web backend</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="tech-category fade-in">
+                <h3><i class="fas fa-tools"></i> Herramientas</h3>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <i class="fab fa-git-alt"></i>
+                        <h3>Git</h3>
+                        <p>Control de versiones</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p>Colaboración y repositorios</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fab fa-jira"></i>
+                        <h3>Jira</h3>
+                        <p>Gestión de proyectos ágiles</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fas fa-sync-alt"></i>
+                        <h3>Scrum</h3>
+                        <p>Metodología ágil</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tech-category fade-in">
+                <h3><i class="fas fa-robot"></i> Automatización</h3>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <i class="fas fa-cogs"></i>
+                        <h3>UiPath</h3>
+                        <p>Automatización de procesos RPA</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Rocketbot</h3>
+                        <p>Desarrollo de bots</p>
+                    </div>
+                    <div class="tech-card">
+                        <i class="fas fa-robot"></i>
+                        <h3>Automation Anywhere</h3>
+                        <p>Plataforma de automatización</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="section projects" id="proyectos">
+        <div class="container">
+            <div class="fade-in">
+                <h2 class="section-title">Proyectos</h2>
+                <p class="section-subtitle">Proyectos de desarrollo Full Stack que demuestran mis habilidades técnicas y mi capacidad de trabajo colaborativo.</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Proyecto principal -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Toro Forrajero – E-commerce</h3>
+                        <p>Plataforma e-commerce educativa enfocada en la venta de productos e insumos para alimentación de ganado. Desarrollada de forma colaborativa con metodologías ágiles.</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Bootstrap</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-external-link-alt"></i> Ver proyecto
+                            </a>
+                            <a href="#" class="btn btn-outline">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Placeholder proyecto 2 -->
+                <!-- Proyecto Hackathon -->
+<div class="project-card fade-in">
+
+    <div class="project-image">
+        <i class="fas fa-laptop-code"></i>
+    </div>
+
+    <div class="project-content">
+
+        <h3>Landing Page – Hackathon</h3>
+
+        <p>
+            Landing page desarrollada durante un Hackathon como parte de
+            un proyecto colaborativo. Participé en la construcción de la
+            interfaz y estructura del sitio aplicando desarrollo web,
+            diseño responsive y control de versiones con Git y GitHub.
+        </p>
+
+        <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Bootstrap</span>
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+        </div>
+
+        <div class="project-buttons">
+
+                 <!-- Ver proyecto -->
+                 <a href="https://gmlegacy.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                        class="btn btn-primary">
+
+                     <i class="fas fa-external-link-alt"></i>
+                        Ver proyecto
+
+                    </a>
+
+    <!-- Ver código -->
+    <a href="https://github.com/OscarAndres008/Hackaton_1"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="btn btn-outline">
+
+        <i class="fab fa-github"></i>
+        Ver código
+
+             </a>
+
+            </div>
+
+    </div>
+</div>
+
+                <!-- Placeholder proyecto 3 -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-plus-circle"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Próximo Proyecto</h3>
+                        <p>Espacio reservado para tu siguiente proyecto Full Stack. ¡Pronto más novedades!</p>
+                        <div class="project-tags">
+                            <span class="tag">Próximamente</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-outline" style="opacity: 0.5; pointer-events: none;">
+                                <i class="fas fa-clock"></i> En desarrollo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Placeholder proyecto 4 -->
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <i class="fas fa-plus-circle"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Próximo Proyecto</h3>
+                        <p>Espacio reservado para tu siguiente proyecto Full Stack. ¡Pronto más novedades!</p>
+                        <div class="project-tags">
+                            <span class="tag">Próximamente</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-outline" style="opacity: 0.5; pointer-events: none;">
+                                <i class="fas fa-clock"></i> En desarrollo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="section" id="experiencia">
+        <div class="container">
+            <div class="fade-in">
+                <h2 class="section-title">Experiencia Profesional</h2>
+                <p class="section-subtitle">Mi trayectoria profesional como fortaleza adicional de mi perfil como desarrollador.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Desarrollador RPA</h3>
+                            <span class="timeline-badge">+3 años</span>
+                        </div>
+                        <span class="timeline-company">Consultora Linko</span>
+                        <ul>
+                            <li>Desarrollo y mantenimiento de bots para CRM y aplicaciones web.</li>
+                            <li>Automatización de procesos empresariales críticos.</li>
+                            <li>Migración y validación de workflows entre plataformas.</li>
+                            <li>Pruebas funcionales y aseguramiento de calidad de automatizaciones.</li>
+                            <li>Procesamiento y extracción de información desde documentos PDF.</li>
+                            <li>Implementación de OCR y expresiones regulares para captura de datos.</li>
+                            <li>Elaboración de documentación técnica de procesos automatizados.</li>
+                            <li>Soporte y mantenimiento de automatizaciones en producción.</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span class="tag">UiPath</span>
+                            <span class="tag">Rocketbot</span>
+                            <span class="tag">Automation Anywhere</span>
+                            <span class="tag">OCR</span>
+                            <span class="tag">Regex</span>
+                            <span class="tag">Automatización Web</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educación -->
+    <section class="section education" id="educacion">
+        <div class="container">
+            <div class="fade-in">
+                <h2 class="section-title">Educación y Certificaciones</h2>
+                <p class="section-subtitle">Formación académica y certificaciones que respaldan mi perfil profesional.</p>
+            </div>
+
+            <div class="edu-grid">
+                <div class="edu-card fade-in">
+                    <div class="icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Ingeniería en Sistemas Computacionales</h3>
+                    <p class="institution">Universidad Tres Culturas</p>
+                    <p class="date">2018 – 2021</p>
+                </div>
+
+                <div class="edu-card fade-in">
+                    <div class="icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Bootcamp Java Full Stack</h3>
+                    <p class="institution">Generation México</p>
+                    <p class="date">En curso</p>
+                    <span class="status">En progreso</span>
+                </div>
+
+                <div class="edu-card fade-in">
+                    <div class="icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>Idioma Inglés</h3>
+                    <p class="institution">Nivel B1</p>
+                    <p class="date">En proceso de mejora</p> 
+                </div>
+            </div>
+
+            <div class="certs-list fade-in">
+                <h3><i class="fas fa-certificate"></i> Certificaciones</h3>
+                <div class="cert-item">
+                    <i class="fas fa-award"></i>
+                    <span>UiPath Certified Professional – Automation Developer</span>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-award"></i>
+                    <span>Bot Builder Rocketbot – Expert Level 1</span>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-award"></i>
+                    <span>Essentials Automation Certification</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="section contact" id="contacto">
+        <div class="contact-bg"></div>
+        <div class="container">
+            <div class="contact-content fade-in">
+                <h2>¿Trabajamos juntos?</h2>
+                <p>Actualmente estoy abierto a oportunidades como <strong>Java Full Stack Developer Jr.</strong> donde pueda seguir desarrollando mis habilidades y contribuir en proyectos tecnológicos.</p>
+
+              
+
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('¡Gracias por tu mensaje! Te contactaré pronto.');">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" placeholder="¿En qué puedo ayudarte?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Enviar mensaje
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Oscar Andrés Miranda López. Desarrollado con <i class="fas fa-heart heart"></i> y mucho café.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = menuToggle.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                menuToggle.querySelector('i').classList.remove('fa-times');
+                menuToggle.querySelector('i').classList.add('fa-bars');
+            });
+        });
+
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
