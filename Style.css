@@ -1221,3 +1221,17 @@ body {
     min-width: auto;
     white-space: nowrap;
 }
+
+.cert-item {
+    color: white;
+    text-decoration: none;
+}
+
+.cert-item:visited {
+    color: white;
+}
+
+.cert-item:hover {
+    color: white;
+    text-decoration: none;
+}
