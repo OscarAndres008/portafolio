@@ -83,3 +83,10 @@ contactForm.addEventListener('submit', function(event) {
 
     alert('¡Gracias por tu mensaje! Te contactaré pronto.');
 });
+
+//mensaje video aun no disponible
+const btnDemoRpa = document.getElementById("btnDemoRpa");
+
+btnDemoRpa.addEventListener("click", function () {
+    alert("🎥 Video aún no disponible.");
+});
