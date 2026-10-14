@@ -23,8 +23,6 @@ Este sitio presenta mi perfil profesional, las tecnologías con las que trabajo,
 - HTML5
 - CSS3 (diseño responsive)
 - JavaScript
-- [Font Awesome](https://fontawesome.com/) para íconos
-- [Google Fonts](https://fonts.google.com/) (Inter y JetBrains Mono)
 - GitHub Pages para el despliegue
 
 ## Estructura del repositorio
